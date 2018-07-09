@@ -1,0 +1,16 @@
+server:
+    port: 8088
+    context-path: /test-data-initializer
+spring:
+    cloud:
+        consul:
+            discovery:
+                service-name: test-data-initializer
+management:
+    security:
+        enabled: false
+logging:
+    config: classpath:logback.xml
+log:
+    file:
+        directory: logs/

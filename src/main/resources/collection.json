@@ -1,0 +1,10 @@
+[
+  {
+    "testField1": "ABC",
+    "testField2": "123"
+  },
+  {
+    "testField1": "DEF",
+    "testField2": "456"
+  }
+]
